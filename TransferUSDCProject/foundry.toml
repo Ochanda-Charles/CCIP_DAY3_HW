@@ -3,4 +3,11 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+[dependencies]
+chainlink = { git = "https://github.com/smartcontractkit/chainlink", branch = "main" }
+openzeppelin = { git = "https://github.com/OpenZeppelin/openzeppelin-contracts", branch = "master" }
+
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+
